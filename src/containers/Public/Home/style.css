@@ -1,0 +1,89 @@
+.corpid-font {
+    font-family: 'Corpid Black', sans-serif;
+}
+
+h1 .doema-titulo {}
+
+.doema-subtitulo {
+    display: block;
+}
+
+
+/* STYLE RESPONSÁVEL PELA ANIMAÇÃO DO SVG (MARANHAO) NA HOME */
+
+
+/* FUTURAMENTE, SUBSTITUIR SVG EMBEDED PELA TAG <OBJECT> */
+
+#outputsvg {
+    transform: matrix(0.856831, 0, 0, 0.856831, 0, 0);
+    transform-origin: 50% 50%;
+    cursor: move;
+    transition: transform 200ms ease-in-out 0s;
+}
+
+#l1tpPVSNEWA3g {
+    transform: none;
+}
+
+#l4za0LjzuPrqn {
+    transform: none;
+}
+
+@-webkit-keyframes animate-svg-stroke-1 {
+    0% {
+        stroke-dashoffset: 14759.193359375px;
+        stroke-dasharray: 14759.193359375px;
+    }
+    100% {
+        stroke-dashoffset: 0;
+        stroke-dasharray: 14759.193359375px;
+    }
+}
+
+@keyframes animate-svg-stroke-1 {
+    0% {
+        stroke-dashoffset: 14759.193359375px;
+        stroke-dasharray: 14759.193359375px;
+    }
+    100% {
+        stroke-dashoffset: 0;
+        stroke-dasharray: 14759.193359375px;
+    }
+}
+
+.svg-elem-1 {
+    -webkit-animation: animate-svg-stroke-1 3s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0s both;
+    animation: animate-svg-stroke-1 3s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0s both;
+}
+
+@-webkit-keyframes animate-svg-stroke-2 {
+    0% {
+        stroke-dashoffset: 10887.0712890625px;
+        stroke-dasharray: 10887.0712890625px;
+    }
+    100% {
+        stroke-dashoffset: 0;
+        stroke-dasharray: 10887.0712890625px;
+    }
+}
+
+@keyframes animate-svg-stroke-2 {
+    0% {
+        stroke-dashoffset: 10887.0712890625px;
+        stroke-dasharray: 10887.0712890625px;
+    }
+    100% {
+        stroke-dashoffset: 0;
+        stroke-dasharray: 10887.0712890625px;
+    }
+}
+
+.svg-elem-2 {
+    -webkit-animation: animate-svg-stroke-2 6s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.12s both;
+    animation: animate-svg-stroke-2 6s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.12s both;
+}
+
+@font-face {
+    font-family: "Corpid Black";
+    src: url("../../../assets/fonts/Corpid-Black.otf") format("opentype");
+}
